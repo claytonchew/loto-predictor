@@ -13,8 +13,8 @@ LOTOS = [
 ]
 
 
-def generate_url(toto, page):
-    return f"https://www.lotto-8.com/Malaysia/listlto{toto}.asp?indexpage={str(page)}"
+def generate_url(loto, page):
+    return f"https://www.lotto-8.com/Malaysia/listlto{loto}.asp?indexpage={str(page)}"
 
 
 def parse(url):
